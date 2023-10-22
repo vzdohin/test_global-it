@@ -1,0 +1,35 @@
+.card {
+    list-style: none;
+    width: calc(33.3333% - 65px);
+    /* flex-grow: 1; */
+    height: 266px;
+    padding: 24px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+
+}
+
+.card__title {
+    color: #262C40;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.card__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.card__image {}
+
+.card__text{
+    color: #8189A3;
+    margin: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}

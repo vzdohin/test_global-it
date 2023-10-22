@@ -1,0 +1,17 @@
+.cards{
+    max-width: 100%;
+    /* display: grid;
+    grid-template-columns: repeat(3, 309px); */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    padding: 0;
+    gap: 25px;
+    /* align-items: center; */
+    justify-content: flex-start;
+    /* justify-items: stretch; */
+}
+.cards__container{
+    /* max-width: 100%; */
+
+}
